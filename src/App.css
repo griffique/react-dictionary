@@ -1,4 +1,11 @@
 h1,
-p {
+h3 {
   text-align: center;
+}
+h1 {
+  margin: 50px;
+}
+
+h3 {
+  font-size: 24px;
 }
