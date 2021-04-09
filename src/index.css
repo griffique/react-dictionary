@@ -1,3 +1,10 @@
 h1 {
   font-family: "Playfair Display", serif;
+  font-size: 78px;
+}
+h2,
+h3,
+h4,
+p {
+  font-family: "Lato", sans-serif;
 }

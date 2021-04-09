@@ -5,4 +5,5 @@
 
 .submit-button {
   border-radius: 5px;
+  box-shadow: none;
 }
