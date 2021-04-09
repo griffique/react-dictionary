@@ -1,3 +1,6 @@
+body {
+  background-color: #f1fdfa;
+}
 h1 {
   font-family: "Playfair Display", serif;
   font-size: 78px;
@@ -7,4 +10,16 @@ h3,
 h4,
 p {
   font-family: "Lato", sans-serif;
+}
+
+a {
+  color: #008080;
+  text-decoration: none;
+}
+a:hover {
+  color: #6dcfcc;
+  text-decoration: underline;
+}
+a:visited {
+  color: #f173ac;
 }

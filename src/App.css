@@ -1,11 +1,14 @@
-h1,
-h3 {
-  text-align: center;
-}
 h1 {
   margin: 50px;
 }
 
 h3 {
   font-size: 24px;
+}
+.App-header {
+  text-align: center;
+}
+.footer {
+  margin: 100px 0 0;
+  text-align: center;
 }
