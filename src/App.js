@@ -1,5 +1,5 @@
 import "./App.css";
-
+import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="container">
@@ -9,6 +9,7 @@ function App() {
 
           <h3>What word do you want to look up?</h3>
         </header>
+        <Dictionary />
       </div>
     </div>
   );
