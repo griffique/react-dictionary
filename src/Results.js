@@ -5,10 +5,8 @@ export default function Results(props) {
     return (
       <div className="results">
         {" "}
-        <p>
-          Definition of {props.results.word}:{" "}
-          {props.results.meanings[0].definitions[0].definition}
-        </p>
+        <h2> Definition of {props.results.word}: </h2>
+        <p> {props.results.meanings[0].definitions[0].definition}</p>
       </div>
     );
   else return null;
