@@ -1,9 +1,4 @@
-.dictionary form {
-  text-align: center;
-  margin: 24px;
-}
-
-.submit-button {
-  border-radius: 5px;
-  box-shadow: none;
+.dictionary p,
+h3 {
+  margin: 20px 0;
 }

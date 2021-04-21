@@ -1,5 +1,5 @@
 body {
-  background-color: #f1fdfa;
+  background-color: #ddf1f4;
 }
 h1 {
   font-family: "Playfair Display", serif;
@@ -13,13 +13,20 @@ p {
 }
 
 a {
-  color: #008080;
+  color: #17a2b8;
   text-decoration: none;
 }
 a:hover {
-  color: #6dcfcc;
+  color: #a1b817;
   text-decoration: underline;
 }
 a:visited {
-  color: #f173ac;
+  color: #b817a2;
+}
+.div-section {
+  text-align: left;
+  margin: 24px;
+  padding: 22px;
+  background-color: white;
+  border-radius: 10px;
 }
