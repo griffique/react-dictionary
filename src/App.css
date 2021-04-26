@@ -9,6 +9,18 @@ h3 {
   text-align: center;
 }
 .footer {
-  margin: 100px 0 0;
+  margin: 100px 0 50px;
   text-align: center;
+}
+.footer a {
+  font-weight: 400;
+  color: #17a2b8;
+
+  line-height: 17px;
+
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+  transition: all 150ms ease-in-out;
 }
