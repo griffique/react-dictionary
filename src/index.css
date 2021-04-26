@@ -12,17 +12,6 @@ p {
   font-family: "Lato", sans-serif;
 }
 
-a {
-  color: #17a2b8;
-  text-decoration: none;
-}
-a:hover {
-  color: #a1b817;
-  text-decoration: underline;
-}
-a:visited {
-  color: #b817a2;
-}
 .div-section {
   text-align: left;
   margin: 24px;

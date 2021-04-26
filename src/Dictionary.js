@@ -3,7 +3,7 @@ import "./Dictionary.css";
 import axios from "axios";
 import Results from "./Results.js";
 export default function Dictionary() {
-  const [keyword, setKeyword] = useState("lynx");
+  const [keyword, setKeyword] = useState("hello");
   const [results, setResults] = useState(null);
   const [loaded, setLoaded] = useState(false);
   function load() {
@@ -41,7 +41,7 @@ export default function Dictionary() {
               onChange={handleKeywordChange}
             />{" "}
           </form>
-          <p> i.e., cat, pearl, aqua, swim </p>
+          <p> i.e., pearl, aqua, swim </p>
         </div>
         <Results results={results} />
       </div>
