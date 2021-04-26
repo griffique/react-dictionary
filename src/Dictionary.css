@@ -2,3 +2,14 @@
 h3 {
   margin: 20px 0;
 }
+.search-bar {
+  display: block;
+  height: 64px;
+  color: #666;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 22px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 100%;
+}
