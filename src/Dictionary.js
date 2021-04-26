@@ -41,7 +41,7 @@ export default function Dictionary() {
     setResults(response.data[0]);
   }
   function handlePexelsResponse(response) {
-    setPhotos(response);
+    setPhotos(response.data.photos);
   }
 
   if (loaded)
