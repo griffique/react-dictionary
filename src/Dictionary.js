@@ -66,6 +66,6 @@ export default function Dictionary() {
     );
   else {
     load();
-    return "Loading";
+    return "Loading...";
   }
 }
